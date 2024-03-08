@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+  gap: 2rem;
+  margin: 10% 40%;
+  background-color: darkorange;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#head-text {
+  font-weight: bold;
+  width: 307px;
+  height: 35px;
+  font-size: 1.2rem;
+  margin-top: -50px;
+}
+#btn {
+  padding: 5px;
+  margin-top: 17px;
+  margin-left: 15px;
+  background-color: springgreen;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#num {
+  height: 30px;
+  width: 200px;
+  margin: -29px;
+  padding: 7px;
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 13px;
+}
+
+#note {
+  font-size: 23px;
+  font-weight: bold;
+}
